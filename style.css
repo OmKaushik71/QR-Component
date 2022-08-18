@@ -361,7 +361,7 @@ body{
   background-color:var(--Light-gray);
 }
 
-.card{
+main{
     width: 330px;
     height: auto;
    /* border: 1px solid black; */
@@ -374,20 +374,20 @@ body{
    border-radius: 15px;
    box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.15);
 }
-.card > img{
+main > img{
     width: 310px;
     height: auto;
     border-radius: 15px;
     margin-top: 0.6rem;
 }
-.card h1{
+main h1{
     font-weight:bolder;
     font-size: 28px;
     text-align: center;
     color: var(--Dark-blue);
     font-family: 'Outfit',sans-serif;
 }
-.card span{
+main span{
     font-size: 15px;
     color: var(--Grayish-blue);
     text-align: center;
